@@ -1,0 +1,17 @@
+.filtro {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap: 20px;
+    width: 80vw;
+    height: 50%;
+}
+
+.a {
+    max-width: 200px;
+    max-height: 400px;
+}
+
+.imagem {
+    max-height: 400px;
+    object-fit: contain;
+}

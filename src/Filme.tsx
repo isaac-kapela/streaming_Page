@@ -9,7 +9,7 @@ export interface FilmeProps {
 
 export default function Filme(filme: FilmeProps) {
     return (
-        <div>
+        <div className="filme">
             <div className="titulo">{filme.titulo}</div>
             <div className="descricao">{filme.descricao}</div>
             <div className="duracao">{filme.duracao}</div>
