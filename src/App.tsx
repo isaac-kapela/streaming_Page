@@ -1,6 +1,7 @@
 import "./App.css";
 import Filme from "./Filme";
 import Filtro from "./Filtro";
+import NavBar from "./NavBar";
 import EXIBICAO, { FilmesTuplaType } from "./exibicoes"
 
 
@@ -9,6 +10,7 @@ interface ListaFilmes {filmes: Array<FilmesTuplaType> };
 function App() {
   return (
     <div className='app'>
+      <NavBar></NavBar>
       {EXIBICAO.map((exibicao) => (
         <Filtro
           tipo={exibicao[0]}
